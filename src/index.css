@@ -31,7 +31,7 @@ html, body{
 }
 #todos{
     margin-bottom: 2.5rem;
-    min-height: 40vh;
+    min-height: 50vh;
 }
 #add label{
     font-size:1.2rem;
