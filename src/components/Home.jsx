@@ -4,16 +4,7 @@ import Todos from './Todos'
 import NewTodo from './NewTodo';
 
 
-const dummyTodos = [
-    {
-        title : "routine",
-        description : "this is my routine"
-    },
-    {
-        title : "tiffin",
-        description : "this is my tiffin time"
-    }
-]
+const dummyTodos = [];
 
 export default function Home() {
     const [todos, setTodos] = useState(dummyTodos);

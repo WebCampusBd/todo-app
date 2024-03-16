@@ -1,5 +1,5 @@
 import React from 'react'
-import { MdAutoDelete    } from "react-icons/md";
+import { MdDelete     } from "react-icons/md";
 
 export default function Todo(props) {
     const {todoTitle, todoDesc} = props;
@@ -17,7 +17,7 @@ export default function Todo(props) {
             <h3>{todoTitle}</h3>
             <p>{todoDesc}</p>
         </div>
-        <MdAutoDelete   onClick={deleteTodo} id="delete" />
+        <MdDelete onClick={deleteTodo} id="delete" />
     </div>
   )
 }
